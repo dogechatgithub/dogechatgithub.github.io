@@ -40,7 +40,7 @@
 <style type="text/css">
 
 body{
-background:#7F5300;
+background:#FFFFFF;
 color:#FFFFFF;
 font-family: 'Maven Pro', sans-serif;
 font-size:16px;
@@ -89,17 +89,15 @@ letter-spacing:0em;
 
 /* HERO CONTAINER */
 
-	/*
 .hero-container{
     height: calc(100vh - 76px);
-    min-height: calc(1000px - 76px);
+    min-height: calc(100vh - 76px);
 }
-*/
 
 	
 .hero-container .hero-title{
 font-weight:700;
-font-size:3.5em;;
+font-size:3em;;
 letter-spacing:0px;
     position:relative;
 color:#FFFFFF;
@@ -132,14 +130,15 @@ position:relative;
     }   
 
 
+
 .hero-container .buy-button{
 color: #FFFFFF;
-background-color: #CC1DDE;
-border-color: #CC1DDE;
+background-color: #1766FF;
+    border:0;
 position: relative;
 z-index: 1;
 overflow: hidden;
-border-radius:1em;
+border-radius:0.5em;
 padding:16px 20px;
 font-weight:600;
 letter-spacing:0px;
@@ -152,20 +151,16 @@ font-size:1em;
 
 .hero-container .telegram-button{
 color: #FFFFFF;
-background-color: #4CE8D3;
-border-color: #4CE8D3;
+background-color: #1766FF;
+    border:0;
 position: relative;
 z-index: 1;
 overflow: hidden;
-border-radius:1em;
+border-radius:0.5em;
 padding:16px 20px;
 font-weight:600;
 letter-spacing:0px;
 font-size:1em;
-}
-
-.hero-container .telegram-button:hover, .hero-container .telegram-button:focus{
-/* background-color: #71DFE6 !important; */
 }
 
     
@@ -182,8 +177,7 @@ font-size:1em;
 
 .section-title{
 font-size:3em;
-font-weight:700;
-font-family: 'Open Sans', sans-serif;
+font-weight:500;
 /*text-shadow: 10px #2C174F;*/
     /*letter-spacing:0.025em;*/
 }
@@ -193,12 +187,11 @@ font-family: 'Open Sans', sans-serif;
 /* ABOUT SECTION */
 
 .about-section{
-background:#FFA300;
+background:#FFFFFF;
 }
 
 .about-container{
-color:#FFFFFF;
-padding-bottom:0 !important;
+color:#181818;
 }
 
 .about-container .about-title{
@@ -214,7 +207,7 @@ padding-bottom:0 !important;
 /* FEATURES SECTION */
 
 .features-section{
-background:#FFA300;
+background:#4D8AFF;
 }
 
 .features-container{
@@ -264,18 +257,19 @@ font-weight:400;
 /* TOKENOMICS SECTION */
 
 .tokenomics-section{
-    background:#BF7900;
+    background-image:url("images/image-4.png");
+    background-size: cover;
+        background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
 }
 
 .tokenomics-container{
-color:#FFFFFF;
+color:#181818;
 }
 
-.tokenomics-container h3{
-font-size:2.5em;
-font-weight: 700;
-  color:#FFFFFF;
-font-family:'Poppins', sans-serif;
+.tokenomics-container h2{
+  color:#1766FF;
 }
 
 .tokenomics-container .tokenomics-title{
@@ -285,14 +279,14 @@ font-family:'Poppins', sans-serif;
 }
 
 .tokenomics-container .tax-card{
- border:2px solid #FFFFFF;
+ border:2px solid #1766FF;
 border-radius:1em;
 max-width:480px;
 background:transparent;
 }
 
 .tokenomics-container .tax-title{
-color: #FFFFFF;
+color: #1766FF;
 font-weight: 600;
 line-height: 0.85;
 -webkit-text-stroke-width: 0px;
@@ -302,7 +296,7 @@ font-weight:700;
 }
     
 .tokenomics-container .tax-title-2{
-color: #FFFFFF;
+color: #1766FF;
 font-size: 1.5em;
 font-weight: 700;
 letter-spacing: 0;
@@ -312,14 +306,13 @@ line-height: 1;
 .tokenomics-container .tax-description{
 font-size:1em;
 font-weight:400;
-    color:#FFFFFF;
+    color:#1766FF;
 }
 
 
 .tokenomics-container .tokenomics-info-table td{
 	padding:1em 1em;
 	border:0px solid #ECF4FF;
-	color: #FFFFFF !important;
 background:transparent !important;
 }
 
@@ -333,7 +326,6 @@ background:transparent !important;
 	border:0px solid #71DFE6 !important;
 	background:transparent;
 	font-size:1em;
-        color: #FFFFFF !important;
 max-width:730px;
 }
 
@@ -350,11 +342,15 @@ max-width:730px;
 /* ROADMAP SECTION */ 
 
 .roadmap-section{
-background:#FFA300;
+background-image:url("images/image-5.png");
+    background-size: cover;
+        background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
 }
 	
 .roadmap-container{
-color:#FFFFFF;
+color:#303030;
 }
 
 .roadmap-container ul > li{
@@ -363,11 +359,11 @@ margin-top:4px;
 }
 
 .roadmap-container .roadmap-title{
-    color:#FFFFFF;
+    color:#1766FF;
 }
 
 .roadmap-container h4{
-color:#FFFFFF;
+color:#1766FF;
 }
 
 /* ---------------- */
@@ -375,7 +371,7 @@ color:#FFFFFF;
 /* SWAP SECTION */
 
 .swap-section{
-    background:#BF7900;
+    background:#4D8AFF;
 }
 
 .swap-container{
@@ -389,22 +385,30 @@ color:#FFFFFF;
     /* ROADMAP SECTION */ 
 
 .faq-section{
-background:#FFA300;
+background-image:url("images/image-3.png");
+    background-size: cover;
+        background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
 }
 	
 .faq-container{
-color:#FFFFFF;
+color:#1766FF;
 }
 
 .faq-container .accordion-item {
-    background-color: #805100;
-    border: 1px solid rgba(0,0,0,.125);
+    background-color: #FFFFFF;
+    border: 2px solid #4D8AFF;
+border-radius:1em !important;overflow:hidden;
 }   
 
 .faq-container .accordion-button{
-    color: #FFFFFF !important;
-    background-color: #805100 !important;
-    box-shadow: inset 0 -1px 0 rgb(0 0 0 / 13%) important;
+    color: #303030 !important;
+    background-color: #FFFFFF !important;
+    box-shadow: inset 0 -1px 0 rgb(252 86 0 / 13%);
+}
+
+.faq-container .accordion-body{
 }
 
 .faq-container .accordion-item{
@@ -412,23 +416,33 @@ color:#FFFFFF;
 }
 
 .faq-container .accordion-button:not(.collapsed)::after {
-    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23FFFFFF'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23303030'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
 }
 
     
 .faq-container .accordion-button::after {
-    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23FFFFFF'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23303030'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
 }
 
 .faq-container .accordion-body{
-color:#FFFFFF;
+color:#303030;
+}
+    
+    .accordion-item:first-of-type {
+    border-top-left-radius: 0rem;
+    border-top-right-radius: 0rem;
+}
+
+.accordion-item:last-of-type {
+    border-bottom-right-radius: 0rem;
+    border-bottom-left-radius: 0rem;
 }
 /* ---------------- */
 
 /* FOOTER SECTION */
 
 .footer-section{
-    background:#402800;
+   background:#1766FF;
 }
 
 .footer-container{
@@ -444,7 +458,7 @@ margin-bottom:24px;
 }
 
 .footer-container a{
-color:#FFD70D;
+color:#FFFFFF;
 font-size:1.25em;
 font-weight:500;
 }
@@ -495,7 +509,7 @@ padding-right: 0rem !important;
 .navbar-collapse{
 padding-top:76px !important;
 z-index:2 !important;
-background:#402800 !important;
+background:#1766FF !important;
 position:fixed !important;
 top:0 !important;
 left:0 !important;
@@ -558,7 +572,6 @@ color:#FFFFFF !important;
 }
     
      .nav-link:hover{
-color:#FFD70D !important;   
 	}
 	
 .navbar-toggler {
@@ -621,25 +634,14 @@ background: #FF650D;
     width: 100%;
     top: 0;
     left: 0;
+background-image:url("images/image-1.png");
+    background-size: cover;
+        background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+       
 }
     
-    .dark-background-overlay {
-        margin-top:-75px;
-    position: absolute;
-    z-index: -1;
-    height: calc(100% + 75px);
-    width: 100%;
-    background: rgba(0,0,0,0.25);
-    top: 0;
-    left: 0;
-}
-    
-    .background-video {
-    z-index: -2;
-    height: 100%;
-    width: 100%;
-    object-fit: cover;
-}
     
 </style>
 </head>
@@ -649,8 +651,8 @@ background: #FF650D;
 <nav class="navbar navbar-expand-lg navbar-dark" id="#home">
 <div class="container" data-aos="fade">
 <a class="navbar-brand d-flex flex-row justify-content-center align-items-center" href="/">
-    <img class="img-fluid me-2" src="images/logo-text-only.png" style="max-height:34px;">
-<h1 class="mb-0 d-none" style="font-size:1em;font-weight:300;color:#C012D1"></h1></a>
+    <img class="img-fluid me-2 d-none" src="images/image-8.png" style="max-height:34px;">
+<h1 class="mb-0 " style="color:#FFFFFF;font-size:1em;font-weight:700;">DOGECHAT</h1></a>
 <button id="navToggler" class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
 <div class="navbar-collapse collapse" id="navbarTogglerDemo02" style="">
 <ul class="navbar-nav ms-auto pt-2 pt-lg-0">
@@ -674,34 +676,27 @@ background: #FF650D;
     
 <section class="hero-section" style="position:relative;">
     <div id="backgroundvideocontainer" class="background-video-container">
-<video class="background-video" autoplay="" muted="" loop="">
-<source src="images/video-2.webm" type="video/webm">
-</video>
+
 </div>
 
-<div id="darkbackgroundoverlay" class="dark-background-overlay"></div>  
+  
 <div class="hero-container container py-5 d-flex flex-column justify-content-center align-items-center">
 <div class="row">
 
-<div data-aos="fade-right" class="col-12 col-lg-6 d-flex flex-column justify-content-center align-items-center">
+<div data-aos="fade-right" class="col-12 col-lg-12 d-flex flex-column justify-content-center align-items-center">
 
-<h1 class="hero-title text-center">Welcome to<br><span style="/*color:#8CC912;text-shadow: -1px 0 #FFFFFF, 0 1px #FFFFFF, 1px 0 #FFFFFF, 0 -1px #FFFFFF;*/">Rhinoge</span> <span style="/* color:#015CFF;text-shadow: -1px 0 #FFFFFF, 0 1px #FFFFFF, 1px 0 #FFFFFF, 0 -1px #FFFFFF;*/">Inu!</span></h1>
+<h1 class="hero-title text-center">Trading virtual assets on DC
+build an ecology</h1>
 
-<p class="hero-description mt-1">Rhinoge Inu is a hyper-deflationary, community-driven token deployed on the Binance Smart Chain</p>
-<div class="d-none d-flex flex-column flex-sm-row mt-3">
-<a type="button" class="buy-button btn btn-primary m-2 " href="" target="_blank" style="box-shadow: rgba(204, 29, 222, 0.25) 0px 6px 12px -2px, rgba(204, 29, 222, 0.3) 0px 3px 7px -3px !important;">Buy On Pancakeswap</a>
-<a type="button" class="telegram-button btn btn-primary m-2" href="" target="_blank" style="box-shadow: rgba(76, 232, 211, 0.25) 0px 6px 12px -2px, rgba(76, 232, 211, 0.3) 0px 3px 7px -3px !important;">Join Our Telegram</a>
-</div>
-
+<p class="hero-description mt-3">We will empower cc and provide an application ecosystem based on the DC platform
+including but not limited to DeFi, Finance, Social</p>
 <div class="d-flex flex-column flex-sm-row mt-3">
-
-<a href="https://pancakeswap.finance/swap?outputCurrency=0x8854284bf9d8b3b4998fdcc230e3cc3444cabdc3" target="_blank"><button class="w-100 pushable buy-pushable-button" data-aos="fade">
-  <span class="front">Buy On Pancakeswap</span>
-</button></a><a href="http://t.me/DogeChatPortal" target="_blank"><button class="w-100 pushable telegram-pushable-button ms-sm-3 mt-3 mt-sm-0" data-aos="fade">
-  <span class="front">Join Our Telegram</span>
-</button></a>
+<a type="button" class="buy-button btn btn-primary m-2 " href="" target="_blank" style="">Buy On Pancakeswap</a>
+<a type="button" class="telegram-button btn btn-primary m-2" href="" target="_blank" style="">Join Our Telegram</a>
 </div>
-</div><div class="col-12 col-lg-6 d-flex flex-column justify-content-center align-items-center py-5" style="position:relative;">
+
+
+</div><div class="col-12 col-lg-6 d-flex d-none flex-column justify-content-center align-items-center py-5" style="position:relative;">
 
 <div class="hero-img-wrapper w-100" data-aos="fade-left"><img class="hero-img hero-image img-fluid w-100" src="images/logo-only.png" style="background:transparent !important;"></div>
 
@@ -715,10 +710,15 @@ background: #FF650D;
 
 <section id="about" class="section about-section">
 <div class="section-container about-container container py-5">
-<h2 class="section-title about-title mt-4 text-center" data-aos="fade" style="color:#FFFFFF;text-shadow: -1px 0 #FFD70D, 0 1px #FFD70D, 1px 0 #FFD70D, 0 -1px #FFD70D;">ABOUT</h2>
+<h2 class="section-title about-title d-none mt-4 text-center" data-aos="fade" style="">About</h2>
 
 <div class="row mt-5">
-<div class="col-12 text-center">
+    <div class="col-12 col-lg-4 text-start mb-3 mb-lg-0">
+<img class="img-fluid" src="images/image-7.png" width="280px">
+    
+</div>
+<div class="col-12  col-lg-8 text-start d-flex flex-column justify-content-center "><h3 class="mb-3" style="font-size:3em;color:#1766ff">DogeChat</h3>
+
 <p class="section-description about-description" data-aos="fade">Missed Cloud Chat? Don’t miss out on Doge Chat, your Only Pocket SocialFi Wallet crypto friendly social platform specializing on Blockchain, from Wallet, Web3.0 to NFT. One stop for all your needs.</p>
     
 </div>
@@ -727,14 +727,10 @@ background: #FF650D;
 </section>
 <section id="features" class="section features-section pt-5">
 <div class="section-container features-container container py-5">
-<h2 class="section-title tokenomics-title text-center" data-aos="fade" style="color:#FFFFFF;text-shadow: -1px 0 #FFD70D, 0 1px #FFD70D, 1px 0 #FFD70D, 0 -1px #FFD70D;">FEATURES</h2><div class="row mt-5 mb-4">
+<h2 class="section-title tokenomics-title text-center" data-aos="fade" style="">Features</h2><div class="row mt-5 mb-4">
 
 <div class="col-12 col-lg-4 mb-4">
-<div class="tax-card h-100 d-flex flex-column justify-content-center align-items-center px-4 py-5 mx-auto" data-aos="fade" style="border:0; background-color: rgb(255, 215, 13);
-    background-image: linear-gradient(
--234deg
-, rgba(255, 215, 13, 0.855) 0%, rgba(255, 215, 13, 0.796) 100%);
-    /*box-shadow: 0 0 12px rgb(255 215 13 / 64%);*/">
+<div class="tax-card h-100 d-flex flex-column justify-content-center align-items-center px-4 py-5 mx-auto" data-aos="fade" style="">
 <img class="img-fluid mb-4" src="images/community-driven.png" style="max-height:100px;">
 <span class="tax-title-2 text-center mb-3">Community Driven</span><span class="tax-description text-center">Community focused and fair launched. The future of the project will depend on the community.</span>
 </div>
@@ -742,20 +738,12 @@ background: #FF650D;
 
 
 <div class="col-12 col-lg-4 mb-4">
-<div class="tax-card h-100 d-flex flex-column justify-content-center align-items-center px-4 py-5 mx-auto" data-aos="fade" style="border:0; background-color: rgb(255, 101, 13);
-    background-image: linear-gradient(
--234deg
-, rgba(255, 101, 13, 0.855) 0%, rgba(255, 101, 13, 0.796) 100%);
-    /*box-shadow: 0 0 12px rgb(255 215 13 / 64%);*/">
+<div class="tax-card h-100 d-flex flex-column justify-content-center align-items-center px-4 py-5 mx-auto" data-aos="fade" style="">
 <img class="img-fluid mb-4" src="images/lp-lock.png" style="max-height:100px;">
 <span class="tax-title-2 text-center mb-2">Secured By Design</span><span class="tax-description text-center ">Initial Liquidity Provided will be locked. This ensures that the project will not be rug-pulled.</span>
 </div>
 </div><div class="col-12 col-lg-4 mb-4">
-<div class="tax-card h-100 d-flex flex-column justify-content-center align-items-center px-4 py-5 mx-auto" data-aos="fade" style="border:0; background-color: rgb(167, 157, 168);
-    background-image: linear-gradient(
--234deg
-, rgba(255, 97, 106, 0.855) 0%, rgba(255, 97, 106, 0.796) 100%);
-    /*box-shadow: 0 0 12px rgb(255 215 13 / 64%);*/">
+<div class="tax-card h-100 d-flex flex-column justify-content-center align-items-center px-4 py-5 mx-auto" data-aos="fade" style="">
 <img class="p-1 img-fluid mb-4 " src="images/anti-whale.png" style="max-height:100px;">
 <span class="tax-title-2 text-center mb-2">Safe and Whale-Proof</span><span class="tax-description text-center">Sells are restricted to less than 2% of the total supply to reduce swing-trading and break whales' control.</span>
 </div>
@@ -773,26 +761,23 @@ background: #FF650D;
 
 <section id="tokenomics" class="section tokenomics-section">
 <div class="section-container tokenomics-container container py-5">
-<h2 class="mt-4 section-title tokenomics-title text-center" data-aos="fade" style="color:#FFFFFF;text-shadow: -1px 0 #FFD70D, 0 1px #FFD70D, 1px 0 #FFD70D, 0 -1px #FFD70D;">TOKENOMICS</h2>
+<h2 class="mt-4 section-title tokenomics-title text-center" data-aos="fade" style="">Tokenomics</h2>
 <div class="row">
 <div class="col-12">
                        <table class="table table-striped tokenomics-info-table mt-5 mb-4 mx-auto" data-aos="fade">
 					<tbody><tr>
 						<td style="font-weight:500;">Token Name</td>
-						<td style="font-weight:300;text-align: right;">Rhinoge Inu</td>
+						<td style="font-weight:300;text-align: right;">Doge Chat</td>
 					</tr>
 					<tr>
 						<td style="font-weight:500;">Token Ticker</td>
-						<td style="font-weight:300;white-space:nowrap;text-align: right;">$RHINU</td>
+						<td style="font-weight:300;white-space:nowrap;text-align: right;">$DC</td>
 					</tr><tr>
 						<td style="font-weight:500;">Token Network</td>
 						<td style="font-weight:300;white-space:nowrap;text-align: right;">Binance Smart Chain</td>
 					</tr>
 
-					<tr>
-						<td style="font-weight:500;">Total Supply</td>
-						<td style="font-weight:300;text-align: right;">1,000,000,000 $RHINU</td>
-					</tr>
+					
 					
 				</tbody></table>
                     </div>
@@ -803,20 +788,12 @@ background: #FF650D;
 
 
 <div class="col-12 col-lg-4 ms-auto mb-4">
-<div class="tax-card h-100 d-flex flex-column justify-content-center align-items-center px-4 py-5 mx-auto" data-aos="fade" style="border:0; background-color: rgb(255, 215, 13);
-    background-image: linear-gradient(
--234deg
-, rgba(255, 215, 13, 0.855) 0%, rgba(255, 215, 13, 0.796) 100%);
-    /*box-shadow: 0 0 12px rgb(255 215 13 / 64%);*/">
+<div class="tax-card h-100 d-flex flex-column justify-content-center align-items-center px-4 py-5 mx-auto" data-aos="fade" style="">
 <span class="tax-title text-center mb-3">1%</span>
 <span class="tax-title-2 text-center mb-3">Liquidity Pool</span><span class="tax-description text-center">1% of every transaction is transformed into liquidity. It's automatic and helps create a price floor.</span>
 </div>
 </div><div class="col-12 col-lg-4 me-auto mb-4">
-<div class="tax-card h-100 d-flex flex-column justify-content-center align-items-center px-4 py-5 mx-auto" data-aos="fade" style="border:0; background-color: rgb(255, 101, 13);
-    background-image: linear-gradient(
--234deg
-, rgba(255, 101, 13, 0.855) 0%, rgba(255, 101, 13, 0.796) 100%);
-    /*box-shadow: 0 0 12px rgb(255 215 13 / 64%);*/">
+<div class="tax-card h-100 d-flex flex-column justify-content-center align-items-center px-4 py-5 mx-auto" data-aos="fade" style="">
 <span class="tax-title text-center mb-3">6%</span>
 <span class="tax-title-2 text-center mb-3">Marketing</span><span class="tax-description text-center">6% of every transaction is taken and will be used for enhancements, operations, and marketing of the project.</span>
 </div>
@@ -832,16 +809,16 @@ background: #FF650D;
 <section id="roadmap" class="section roadmap-section">
 <div class="section-container roadmap-container container py-5">
 <div class="text-center">
-<h2 class="section-title roadmap-title mt-4" data-aos="fade" style="color:#FFFFFF;text-shadow: -1px 0 #FFD70D, 0 1px #FFD70D, 1px 0 #FFD70D, 0 -1px #FFD70D;">ROADMAP</h2>
+<h2 class="section-title roadmap-title mt-4" data-aos="fade" style="">Roadmap</h2>
 <div class="row mt-5 mb-4">
 <div class="col-12 col-lg-4 text-center py-3">
 <h4 data-aos="fade" class="aos-init">PHASE 1</h4>
 <ul class="list-unstyled text-small text-center mt-3" data-aos="fade">
-<li>Telegram and Twitter Launch<svg class="ms-2" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24"><path fill="#FFD70D" d="M12 2c5.514 0 10 4.486 10 10s-4.486 10-10 10-10-4.486-10-10 4.486-10 10-10zm0-2c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm6.25 8.891l-1.421-1.409-6.105 6.218-3.078-2.937-1.396 1.436 4.5 4.319 7.5-7.627z"></path></svg></li>
-<li>Initial Marketing Campaign<svg class="ms-2" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24"><path fill="#FFD70D" d="M12 2c5.514 0 10 4.486 10 10s-4.486 10-10 10-10-4.486-10-10 4.486-10 10-10zm0-2c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm6.25 8.891l-1.421-1.409-6.105 6.218-3.078-2.937-1.396 1.436 4.5 4.319 7.5-7.627z"></path></svg></li>
-<li>Pancakeswap Fair Launch<svg class="ms-2" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24"><path fill="#FFD70D" d="M12 2c5.514 0 10 4.486 10 10s-4.486 10-10 10-10-4.486-10-10 4.486-10 10-10zm0-2c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm6.25 8.891l-1.421-1.409-6.105 6.218-3.078-2.937-1.396 1.436 4.5 4.319 7.5-7.627z"></path></svg></li>
-<li>LP Lock Extension<svg class="ms-2" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24"><path fill="#FFD70D" d="M12 2c5.514 0 10 4.486 10 10s-4.486 10-10 10-10-4.486-10-10 4.486-10 10-10zm0-2c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm6.25 8.891l-1.421-1.409-6.105 6.218-3.078-2.937-1.396 1.436 4.5 4.319 7.5-7.627z"></path></svg></li>
-<li>Website V1 Launch<svg class="ms-2" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24"><path fill="#FFD70D" d="M12 2c5.514 0 10 4.486 10 10s-4.486 10-10 10-10-4.486-10-10 4.486-10 10-10zm0-2c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm6.25 8.891l-1.421-1.409-6.105 6.218-3.078-2.937-1.396 1.436 4.5 4.319 7.5-7.627z"></path></svg></li>
+<li>Telegram and Twitter Launch<svg class="ms-2" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24"><path fill="#1766FF" d="M12 2c5.514 0 10 4.486 10 10s-4.486 10-10 10-10-4.486-10-10 4.486-10 10-10zm0-2c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm6.25 8.891l-1.421-1.409-6.105 6.218-3.078-2.937-1.396 1.436 4.5 4.319 7.5-7.627z"></path></svg></li>
+<li>Initial Marketing Campaign<svg class="ms-2" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24"><path fill="#1766FF" d="M12 2c5.514 0 10 4.486 10 10s-4.486 10-10 10-10-4.486-10-10 4.486-10 10-10zm0-2c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm6.25 8.891l-1.421-1.409-6.105 6.218-3.078-2.937-1.396 1.436 4.5 4.319 7.5-7.627z"></path></svg></li>
+<li>Pancakeswap Fair Launch<svg class="ms-2" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24"><path fill="#1766FF" d="M12 2c5.514 0 10 4.486 10 10s-4.486 10-10 10-10-4.486-10-10 4.486-10 10-10zm0-2c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm6.25 8.891l-1.421-1.409-6.105 6.218-3.078-2.937-1.396 1.436 4.5 4.319 7.5-7.627z"></path></svg></li>
+<li>LP Lock Extension<svg class="ms-2" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24"><path fill="#1766FF" d="M12 2c5.514 0 10 4.486 10 10s-4.486 10-10 10-10-4.486-10-10 4.486-10 10-10zm0-2c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm6.25 8.891l-1.421-1.409-6.105 6.218-3.078-2.937-1.396 1.436 4.5 4.319 7.5-7.627z"></path></svg></li>
+<li>Website V1 Launch<svg class="ms-2" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24"><path fill="#1766FF" d="M12 2c5.514 0 10 4.486 10 10s-4.486 10-10 10-10-4.486-10-10 4.486-10 10-10zm0-2c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm6.25 8.891l-1.421-1.409-6.105 6.218-3.078-2.937-1.396 1.436 4.5 4.319 7.5-7.627z"></path></svg></li>
 </ul>
 </div>
 <div class="col-12 col-lg-4 text-center py-3">
@@ -881,7 +858,7 @@ background: #FF650D;
 </div>
 </section><section id="swap" class="section swap-section">
 <div class="section-container swap-container container py-5">
-<h2 class="mt-4 section-title swap-title text-center" data-aos="fade" style="color:#FFFFFF;text-shadow: -1px 0 #FFD70D, 0 1px #FFD70D, 1px 0 #FFD70D, 0 -1px #FFD70D;">BUY $RHINU</h2>
+<h2 class="mt-4 section-title swap-title text-center" data-aos="fade" style="">Buy $DC</h2>
 
 <div class="row mt-5 mb-4">
 
@@ -898,7 +875,7 @@ background: #FF650D;
 
 <section id="faq" class="section faq-section">
 <div class="section-container faq-container container py-5">
-<h2 class="mt-4 section-title faq-title text-center" data-aos="fade" style="color:#FFFFFF;text-shadow: -1px 0 #FFD70D, 0 1px #FFD70D, 1px 0 #FFD70D, 0 -1px #FFD70D;">FAQ</h2>
+<h2 class="mt-4 section-title faq-title text-center" data-aos="fade" style="">FAQ</h2>
 
 <div class="row mb-4 mt-5">
 
@@ -906,16 +883,16 @@ background: #FF650D;
 <div class="accordion" id="accordionPanelsStayOpenExample">
   <div class="accordion-item">
     <h2 class="accordion-header" id="panelsStayOpen-headingOne">
-      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="false" aria-controls="panelsStayOpen-collapseOne">What is Rhinoge Inu?</button>
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="false" aria-controls="panelsStayOpen-collapseOne">What is Doge Chat?</button>
     </h2>
     <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingOne" style="">
-      <div class="accordion-body">Rhinoge Inu is a hyper-deflationary, community-driven token deployed on the Binance Smart Chain through the BSC medium. It is community driven and backed by a strong team to deliver for investors with the goal of creating wealth and use case just by holding the token. To achieve this vision, a detailed roadmap is laid out and the liquidity is locked initially to grant investors confidence in this project.
+      <div class="accordion-body">Missed Cloud Chat? Don’t miss out on Doge Chat, your Only Pocket SocialFi Wallet crypto friendly social platform specializing on Blockchain, from Wallet, Web3.0 to NFT. One stop for all your needs.
 </div>
     </div>
   </div>
   <div class="accordion-item">
     <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
-      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">When was Rhinoge Inu fairlaunched?</button>
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">When was Doge Chat fairlaunched?</button>
     </h2>
     <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingTwo" style="">
       <div class="accordion-body">
